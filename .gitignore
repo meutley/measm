@@ -2,8 +2,8 @@
 .vscode
 
 # bin / obj
-./bin/**
-./obj/**
+bin/**
+obj/**
 
 # custom directories
-./create-file/**
+create-file/**

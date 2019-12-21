@@ -1,0 +1,19 @@
+# Break on line 14
+break 14
+
+# Set disassembly flavor and start running
+set disassembly-flavor intel
+run
+
+# Print the value of the EAX register
+p/d $eax
+
+# Next instruction
+nexti
+
+# Print the value of the epoch_time variable, which should be at address 0x804909c
+p/d *0x804909c
+
+# Continue execution to end, then quit
+c
+quit
