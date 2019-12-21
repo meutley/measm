@@ -1,0 +1,9 @@
+# Visual Studio Code
+.vscode
+
+# bin / obj
+./bin/**
+./obj/**
+
+# custom directories
+./create-file/**
