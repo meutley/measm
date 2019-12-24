@@ -6,7 +6,6 @@ section .text
 global  _start
 
     _start:
-        jmp get_time
 
     get_time:
         mov eax, SYS_TIME     ; syscall number (sys_time)

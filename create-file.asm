@@ -10,7 +10,6 @@ section .text
 global  _start
 
     _start:
-        jmp create_file
 
     create_file:
         mov edx, S_IRUSR    ; edx is s_irusr
@@ -26,4 +25,4 @@ global  _start
         int 0x80            ; call kernel
 
 section     .data
-    path    dw './create-file/new-file.txt',0xa
+    path    dw './create-file/new-file.txt',0x0
